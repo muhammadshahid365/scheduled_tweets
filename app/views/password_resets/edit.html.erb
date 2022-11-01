@@ -1,0 +1,14 @@
+<%= form_with model: @user, url: password_reset_edit_path(token: params[:token]), method: :patch do |form| %>
+  <h1>Reset your password</h1>
+  <div class="mb-3">
+    <%= form.label :password, 'New password' %>
+    <%= form.password_field :password, class: 'form-control', placeholder: 'Enter new password'%>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password_confirmation, 'Confirm Password' %>
+    <%= form.password_field :password_confirmation, class: 'form-control', placeholder: 'Re-enter new password'%>
+  </div>
+  <div class="mb-3">
+    <%= form.submit 'Reset password', class: 'btn btn-primary' %>
+  </div>
+<% end %>

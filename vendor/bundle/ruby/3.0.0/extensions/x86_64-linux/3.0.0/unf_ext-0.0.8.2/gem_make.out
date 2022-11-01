@@ -1,0 +1,16 @@
+current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20221031-25552-v7dk44.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -m 0755 unf_ext.so ./.gem.20221031-25552-f5xl5s
