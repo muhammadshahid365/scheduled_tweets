@@ -1,5 +1,5 @@
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/io-console-0.5.11/ext/io/console
-/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20221102-28135-pi4dfx.rb extconf.rb
+/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20220830-6123-gbqdxp.rb extconf.rb
 checking for termios.h... yes
 checking for cfmakeraw() in termios.h... yes
 checking for sys/ioctl.h... yes
@@ -17,4 +17,4 @@ linking shared-object io/console.so
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/io-console-0.5.11/ext/io/console
 make DESTDIR\= install
-/usr/bin/install -m 0755 console.so ./.gem.20221102-28135-r7j963/io
+/usr/bin/install -m 0755 console.so ./.gem.20220830-6123-f7qmah/io

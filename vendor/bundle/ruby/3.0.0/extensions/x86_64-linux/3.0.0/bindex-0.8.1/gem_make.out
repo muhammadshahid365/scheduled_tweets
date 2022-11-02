@@ -1,5 +1,5 @@
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
-/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20221102-28135-msx1mk.rb extconf.rb
+/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20220830-6123-urrc2p.rb extconf.rb
 creating Makefile
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
@@ -12,4 +12,4 @@ linking shared-object skiptrace/internal/cruby.so
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
 make DESTDIR\= install
-/usr/bin/install -m 0755 cruby.so ./.gem.20221102-28135-ccklmk/skiptrace/internal
+/usr/bin/install -m 0755 cruby.so ./.gem.20220830-6123-dcbhiy/skiptrace/internal

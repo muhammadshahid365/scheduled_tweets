@@ -1,5 +1,5 @@
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20221102-28135-ps3kye.rb extconf.rb
+/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20221031-25552-afa86y.rb extconf.rb
 creating Makefile
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
@@ -13,4 +13,4 @@ linking shared-object ruby_http_parser.so
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make DESTDIR\= install
-/usr/bin/install -m 0755 ruby_http_parser.so ./.gem.20221102-28135-lb8e33
+/usr/bin/install -m 0755 ruby_http_parser.so ./.gem.20221031-25552-96eqy
