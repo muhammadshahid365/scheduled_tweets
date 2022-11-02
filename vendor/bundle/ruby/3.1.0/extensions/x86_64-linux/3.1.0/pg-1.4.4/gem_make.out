@@ -1,5 +1,5 @@
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.1.0/gems/pg-1.4.4/ext
-/home/umar/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221101-18797-pyt6g8.rb extconf.rb
+/home/umar/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221102-355-9f4rl8.rb extconf.rb
 Calling libpq with GVL unlocked
 checking for pg_config... yes
 Using config values from /usr/bin/pg_config
@@ -54,5 +54,5 @@ linking shared-object pg_ext.so
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.1.0/gems/pg-1.4.4/ext
 make DESTDIR\= install
-/usr/bin/install -m 0755 pg_ext.so ./.gem.20221101-18797-fbvohl
+/usr/bin/install -m 0755 pg_ext.so ./.gem.20221102-355-vqnts4
 installing pg_ext libraries

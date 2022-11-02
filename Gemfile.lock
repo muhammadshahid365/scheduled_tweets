@@ -206,7 +206,7 @@ GEM
       zeitwerk (~> 2.5)
     rake (13.0.6)
     redis (4.8.0)
-    redis-client (0.10.0)
+    redis-client (0.11.0)
       connection_pool
     regexp_parser (2.6.0)
     reline (0.3.1)
@@ -275,7 +275,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.6.3)
+    zeitwerk (2.6.4)
 
 PLATFORMS
   x86_64-linux
@@ -307,4 +307,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.7
+   2.2.22

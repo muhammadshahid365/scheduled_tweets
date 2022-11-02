@@ -1,5 +1,5 @@
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
-/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20220830-6123-i6xr0h.rb extconf.rb
+/home/umar/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20221102-28135-jlg5kb.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... no
@@ -100,4 +100,4 @@ linking shared-object nio4r_ext.so
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
 make DESTDIR\= install
-/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20220830-6123-k9i9bu
+/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20221102-28135-z2vr6j

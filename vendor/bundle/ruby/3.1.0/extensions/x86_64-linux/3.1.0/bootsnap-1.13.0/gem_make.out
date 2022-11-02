@@ -1,5 +1,5 @@
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
-/home/umar/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221101-14001-n3sle3.rb extconf.rb
+/home/umar/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/umar/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221102-355-bl0qmz.rb extconf.rb
 creating Makefile
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.so
 
 current directory: /home/umar/work/rails_learning/projects/twitter_buffer/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
 make DESTDIR\= install
-/usr/bin/install -m 0755 bootsnap.so ./.gem.20221101-14001-lqawjy/bootsnap
+/usr/bin/install -m 0755 bootsnap.so ./.gem.20221102-355-6v5i2x/bootsnap
