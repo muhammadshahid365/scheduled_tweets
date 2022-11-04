@@ -15,6 +15,9 @@ Rails.application.routes.draw do
   get 'password/reset/edit', to: 'password_resets#edit'
   patch 'password/reset/edit', to: 'password_resets#update'
 
+  get 'user/settings', to: 'user_settings#edit'
+  patch 'user/settings', to: 'user_settings#update'
+
   get 'sign-in', to: 'sessions#new'
   post 'sign-in', to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'

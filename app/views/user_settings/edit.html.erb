@@ -1,0 +1,11 @@
+<h1>Select your timezone</h1>
+<%= form_with model: Current.user, url: user_settings_path, local: true do |form|%>
+  <div class="mb-3">
+    <%= form.label :timezone %><br>
+    <%= form.time_zone_select :timezone, nil, {}, { class: 'form-control' } %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.submit 'Save', class: 'btn btn-primary' %>
+  </div>
+<% end %>

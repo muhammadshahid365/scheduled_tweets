@@ -11,7 +11,9 @@
     </div>
     <div class="mb-3">
       <%= form.label :publish_at, 'Select date and time to tweet' %><br>
-      <%= form.datetime_select :publish_at, selected: @tweet.publish_at, class: 'form-control' %>
+      <%= form.datetime_select :publish_at, selected: @tweet.publish_at,
+        ampm: true, class: 'form-control' %>
+      <%= link_to Time.zone, user_settings_path(from: 'new_tweet') %>
     </div>
     <div class="mb-3">
       <%= form.submit 'Schedule', class: 'btn btn-primary' %>
