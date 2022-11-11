@@ -1,9 +1,10 @@
 class TweetJob < ApplicationJob
   queue_as :default
 
-  def perform(tweet)
-    return if (tweet.published? || tweet.publish_at > Time.current)
+  def perform(tweet_id)
+    tweet_record = Tweet.find_by_id tweet_id
+    return if (!tweet_record || tweet_record.published? || tweet_record.publish_at > Time.current)
 
-    tweet.publish_to_twitter!
+    tweet_record.publish_to_twitter!
   end
 end
